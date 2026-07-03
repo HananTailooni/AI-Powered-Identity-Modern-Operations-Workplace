@@ -1,30 +1,44 @@
-# AI for Identity & Access Management (AI-IAM)
-An enterprise AI assistant that helps Microsoft Identity engineers investigate authentication issues, explain security policies, 
-analyze identity risks, and automate repetitive IAM tasks using Microsoft Graph, PowerShell, and AI.
+# Project Vision
+- [x] Design and build an AI-powered Identity & Access Management platform that assists Microsoft Identity Engineers by reducing investigation time, 
+improving decision-making, and automating repetitive IAM tasks while maintaining Zero Trust principles.
+- [x] We are chasing Enterprise values and not AI trends
+
+# Project Philosophy 
+ - [x] Not every Problem deserves AI. 
+- [x] If AI disappeared tomorrow, could a PowerShell script solve this? if Yes, Don't use AI.
+if No, maybe AI !
+- [x] Does this require reasoning ? if Yes, AI. 
+- [x] Does i require interacting with multiple systems? if Yes, we need AI agent indeed. 
 
 # Architecture
-             IAM Engineer
-                   │
-      "Investigate user"
-                   │
-                   ▼
-        AI Orchestrator
-                   │
-        ┌──────────┴──────────┐
-        ▼                     ▼
- Microsoft Graph         Knowledge Base
-        ▼                     ▼
- Sign-ins             Microsoft Learn
- Users                Company Docs
- Groups               GitHub Docs
- CA Policies          Best Practices
+                     IAM Engineer
+                           │
+                           ▼
+                  AI-IAM Assistant
+                           │
+         ┌─────────────────┼─────────────────┐
+         │                 │                 │
+         ▼                 ▼                 ▼
+  Microsoft Graph     Knowledge Base     PowerShell
+         │                 │                 │
+         ▼                 ▼                 ▼
+   Entra ID         Microsoft Learn      Scripts
+   Intune           Best Practices       Automation
+   Teams            Company Docs
 
-        └──────────┬──────────┘
-                   ▼
-         AI Reasoning Engine
-                   ▼
- Investigation Report
-                   ▼
-        Engineer Reviews
-                   ▼
-          Optional Action
+
+# AI-IAM Framework
+
+        ┌───────────────────────────┐
+        │ Identity Administration   │
+        ├───────────────────────────┤
+        │ Identity Investigation    │
+        ├───────────────────────────┤
+        │ Identity Governance       │
+        ├───────────────────────────┤
+        │ Modern Workplace          │
+        ├───────────────────────────┤
+        │ Automation                │
+        └───────────────────────────┘
+
+
