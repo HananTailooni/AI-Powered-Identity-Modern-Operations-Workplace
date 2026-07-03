@@ -1,2 +1,30 @@
 # AI for Identity & Access Management (AI-IAM)
-An enterprise AI assistant that helps Microsoft Identity engineers investigate authentication issues, explain security policies, analyze identity risks, and automate repetitive IAM tasks using Microsoft Graph, PowerShell, and AI.
+An enterprise AI assistant that helps Microsoft Identity engineers investigate authentication issues, explain security policies, 
+analyze identity risks, and automate repetitive IAM tasks using Microsoft Graph, PowerShell, and AI.
+
+# Architecture
+             IAM Engineer
+                   │
+      "Investigate user"
+                   │
+                   ▼
+        AI Orchestrator
+                   │
+        ┌──────────┴──────────┐
+        ▼                     ▼
+ Microsoft Graph         Knowledge Base
+        ▼                     ▼
+ Sign-ins             Microsoft Learn
+ Users                Company Docs
+ Groups               GitHub Docs
+ CA Policies          Best Practices
+
+        └──────────┬──────────┘
+                   ▼
+         AI Reasoning Engine
+                   ▼
+ Investigation Report
+                   ▼
+        Engineer Reviews
+                   ▼
+          Optional Action
