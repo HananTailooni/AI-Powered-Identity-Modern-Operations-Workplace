@@ -10,6 +10,7 @@ improving decision-making, and automating repetitive IAM tasks while maintaining
 if No, maybe AI !
  - [x] Does this require reasoning ? if Yes, AI. 
  - [x] Does i require interacting with multiple systems? if Yes, we need AI agent indeed. 
+ - [x] Where does AI agent can save IAM engineers time during a production incident!
 
 # Architecture
                      IAM Engineer
@@ -28,18 +29,6 @@ if No, maybe AI !
    Teams            Company Docs
 
 
-# AI-IAM Framework
-
-        ┌───────────────────────────┐
-        │ Identity Administration   │
-        ├───────────────────────────┤
-        │ Identity Investigation    │
-        ├───────────────────────────┤
-        │ Identity Governance       │
-        ├───────────────────────────┤
-        │ Modern Workplace          │
-        ├───────────────────────────┤
-        │ Automation                │
-        └───────────────────────────┘
+# Project 0 - Identity Incident Investigator "Version 1.0"
 
 
