@@ -1,0 +1,9 @@
+Project 0  - Identity Incident Investigator "Version 1.0" : 
+My goal is not to fix the issue automatically.
+My goal is to help the engineer investigate faster and with more confidence.
+
+Product Vision: 
+AI-IAM Identity Incident Investigator is an AI-powered investigation assistant that helps Microsoft Identity engineers diagnose authentication and authorization issues 
+by correlating Microsoft Graph data, audit logs, Conditional Access policies, and sign-in events into a single evidence-based report.
+
+
