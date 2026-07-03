@@ -1,14 +1,15 @@
 # Project Vision
+
 - [x] Design and build an AI-powered Identity & Access Management platform that assists Microsoft Identity Engineers by reducing investigation time, 
 improving decision-making, and automating repetitive IAM tasks while maintaining Zero Trust principles.
 - [x] We are chasing Enterprise values and not AI trends
 
 # Project Philosophy 
  - [x] Not every Problem deserves AI. 
-- [x] If AI disappeared tomorrow, could a PowerShell script solve this? if Yes, Don't use AI.
+ - [x] If AI disappeared tomorrow, could a PowerShell script solve this? if Yes, Don't use AI.
 if No, maybe AI !
-- [x] Does this require reasoning ? if Yes, AI. 
-- [x] Does i require interacting with multiple systems? if Yes, we need AI agent indeed. 
+ - [x] Does this require reasoning ? if Yes, AI. 
+ - [x] Does i require interacting with multiple systems? if Yes, we need AI agent indeed. 
 
 # Architecture
                      IAM Engineer
